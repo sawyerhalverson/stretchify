@@ -20,8 +20,13 @@ struct ContentView: View {
                 Rectangle() // White box positioned behind the ColorPicker
                     .fill(Color.white)
                     .frame(width: 264.0, height: 50.0)
-                    .cornerRadius(/*@START_MENU_TOKEN@*/17.0/*@END_MENU_TOKEN@*/)
+                    .cornerRadius(17.0)
             )
+            
+            Text("stretchify")
+                .foregroundColor(.white) // Ensure text color contrasts with background
+                .font(.system(size: 80)) // Increase font size for visibility
+                .offset(y: 300) // Adjust offset to position it near the bottom
         }
     }
 }

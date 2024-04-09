@@ -26,7 +26,7 @@ struct ContentView: View {
             Text("stretchify")
                 .foregroundColor(.white) // Ensure text color contrasts with background
                 .font(.system(size: 80)) // Increase font size for visibility
-                .offset(y: 300) // Adjust offset to position it near the bottom
+                .offset(y: 300) // Adjust offset to position it near the bottom!
         }
     }
 }

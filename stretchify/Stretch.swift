@@ -1,8 +1,9 @@
-//
-//  Stretch.swift
-//  stretchify
-//
-//  Created by Sawyer Halverson on 4/8/24.
-//
+// Stretch.swift
 
 import Foundation
+
+struct Stretch: Identifiable, Decodable {
+    let id: Int
+    let name: String
+    let description: String
+}

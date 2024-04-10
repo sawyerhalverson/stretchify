@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Neck Stretch",
+        "description": "Tilt your head to the left, feeling the stretch on the right side of your neck. Hold for 15 seconds, then switch sides."
+    },
+    {
+        "id": 2,
+        "name": "Hamstring Stretch",
+        "description": "Sit on the floor with one leg extended and the other bent. Lean forward, reaching towards your toes, feeling the stretch in the back of your leg. Hold for 15 seconds, then switch legs."
+    },
+    {
+        "id": 3,
+        "name": "Shoulder Stretch",
+        "description": "Bring your left arm across your chest, using your right hand to press it closer to your body. Hold for 15 seconds, then switch arms."
+    }
+]

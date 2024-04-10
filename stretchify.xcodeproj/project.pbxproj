@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA8326042BC629CA005CC381 /* StretchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8326032BC629CA005CC381 /* StretchesView.swift */; };
+		AA8326062BC62AA1005CC381 /* Stretch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8326052BC62AA1005CC381 /* Stretch.swift */; };
+		AA8326092BC62B50005CC381 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8326082BC62B50005CC381 /* Bundle+Extensions.swift */; };
+		AA83260A2BC62BB9005CC381 /* stretches.json in Resources */ = {isa = PBXBuildFile; fileRef = AA8326072BC62B05005CC381 /* stretches.json */; };
 		AAFC6BFB2BC4912900993951 /* stretchifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC6BFA2BC4912900993951 /* stretchifyApp.swift */; };
 		AAFC6BFD2BC4912900993951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC6BFC2BC4912900993951 /* ContentView.swift */; };
 		AAFC6BFF2BC4912A00993951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFC6BFE2BC4912A00993951 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA8326032BC629CA005CC381 /* StretchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchesView.swift; sourceTree = "<group>"; };
+		AA8326052BC62AA1005CC381 /* Stretch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stretch.swift; sourceTree = "<group>"; };
+		AA8326072BC62B05005CC381 /* stretches.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stretches.json; sourceTree = "<group>"; };
+		AA8326082BC62B50005CC381 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		AAFC6BF72BC4912900993951 /* stretchify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stretchify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFC6BFA2BC4912900993951 /* stretchifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stretchifyApp.swift; sourceTree = "<group>"; };
 		AAFC6BFC2BC4912900993951 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				AAFC6BFA2BC4912900993951 /* stretchifyApp.swift */,
+				AA8326032BC629CA005CC381 /* StretchesView.swift */,
+				AA8326082BC62B50005CC381 /* Bundle+Extensions.swift */,
+				AA8326072BC62B05005CC381 /* stretches.json */,
+				AA8326052BC62AA1005CC381 /* Stretch.swift */,
 				AAFC6BFC2BC4912900993951 /* ContentView.swift */,
 				AAFC6BFE2BC4912A00993951 /* Assets.xcassets */,
 				AAFC6C002BC4912A00993951 /* Preview Content */,
@@ -233,6 +245,7 @@
 			files = (
 				AAFC6C022BC4912A00993951 /* Preview Assets.xcassets in Resources */,
 				AAFC6BFF2BC4912A00993951 /* Assets.xcassets in Resources */,
+				AA83260A2BC62BB9005CC381 /* stretches.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAFC6BFD2BC4912900993951 /* ContentView.swift in Sources */,
+				AA8326092BC62B50005CC381 /* Bundle+Extensions.swift in Sources */,
+				AA8326062BC62AA1005CC381 /* Stretch.swift in Sources */,
 				AAFC6BFB2BC4912900993951 /* stretchifyApp.swift in Sources */,
+				AA8326042BC629CA005CC381 /* StretchesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"stretchify/Preview Content\"";
+				DEVELOPMENT_TEAM = RJR7PYL8C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"stretchify/Preview Content\"";
+				DEVELOPMENT_TEAM = RJR7PYL8C8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -21,13 +21,10 @@ struct StretchesView: View {
     var body: some View {
         NavigationView {
             VStack {
-                // Title
-                Text("Stretches")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .padding()
-
-                // Body parts selection
+                Text("What do you want to stretch?")
+                    .font(.headline)
+                    .padding(.top, 50)
+                
                 HStack {
                     RadioButton(text: "Full Body", isSelected: selectedTags.contains("Full Body")) {
                         if selectedTags.contains("Full Body") {
@@ -56,31 +53,32 @@ struct StretchesView: View {
                         }
                     }
                 }
-                .padding()
+                .padding(.vertical, 15)
 
-                // What do you want to stretch?
-                Text("What do you want to stretch?")
-                    .font(.headline)
-                    .padding(.bottom, 5)
+                Text("Or")
+                    .font(.title)
+                    .padding(.vertical, 15)
 
-                // Radio buttons for specific stretches
                 VStack(alignment: .leading) {
-                     ForEach(allStretches.flatMap { $0.tags }, id: \.self) { tag in
-                         if !["Full Body", "Upper Body", "Lower Body"].contains(tag) {
-                             RadioButton(text: tag, isSelected: selectedTags.contains(tag)) {
-                                 if selectedTags.contains(tag) {
-                                     selectedTags.remove(tag)
-                                 } else {
-                                     selectedTags.insert(tag)
-                                 }
-                             }
-                         }
-                     }
-                 }
+                    ForEach(allStretches, id: \.id) { stretch in
+                        let otherTags = stretch.tags.filter { tag in
+                            !["Full Body", "Upper Body", "Lower Body"].contains(tag)
+                        }
+                        ForEach(otherTags, id: \.self) { tag in
+                            RadioButton(text: tag, isSelected: selectedTags.contains(tag)) {
+                                if selectedTags.contains(tag) {
+                                    selectedTags.remove(tag)
+                                } else {
+                                    selectedTags.insert(tag)
+                                }
+                            }
+                        }
+                    }
+                }
+                .padding(.vertical, 15)
 
                 Spacer()
 
-                // Start Stretch Session button
                 NavigationLink(destination: StretchSessionView(selectedTags: Array(selectedTags), allStretches: allStretches.filter { stretch in
                     selectedTags.isEmpty || selectedTags.contains { tag in
                         stretch.tags.contains(tag)
@@ -186,7 +184,7 @@ struct StretchSessionView: View {
     private func startTimer() {
         Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
             DispatchQueue.main.async {
-                self.timerProgress -= 0.1 / 4
+                self.timerProgress -= 0.1 / 30
             }
             if self.timerProgress <= 0 {
                 if self.currentIndex < self.filteredStretches.count - 1 {
@@ -211,10 +209,27 @@ struct StretchView: View {
                 .multilineTextAlignment(.leading)
             Text(stretch.description)
                 .font(.body)
+                .frame(height: 140) // Set the height to 100 pixels
+                .padding(.vertical, 10) // Adjust vertical padding as needed
+                .lineLimit(nil) // Allow the text to span multiple lines
+            
+            HStack {
+                Spacer()
+                Image(stretch.imageName)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 300.0, height: 200)
+                Spacer()
+            }
         }
         .padding()
     }
 }
+
+
+
+
+
 
 struct StretchesView_Previews: PreviewProvider {
     static var previews: some View {

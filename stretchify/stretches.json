@@ -4,62 +4,71 @@
         "name": "Neck Stretch",
         "description": "Tilt your head to the left, feeling the stretch on the right side of your neck. Hold for 15 seconds.",
         "tags": ["Neck", "Upper Body", "Full Body"],
-        "switch_sides": true
+        "switch_sides": true,
+        "imageName": "neck_side"
     },
     {
         "id": 2,
         "name": "Hamstring Stretch",
         "description": "Sit on the floor with one leg extended and the other bent. Lean forward, reaching towards your toes, feeling the stretch in the back of your leg. Hold for 15 seconds.",
         "tags": ["Hamstrings", "Lower Body", "Full Body"],
-        "switch_sides": true
+        "switch_sides": true,
+        "imageName": "sitting_hamstring"
     },
     {
         "id": 3,
         "name": "Shoulder Stretch",
         "description": "Bring your left arm across your chest, using your right hand to press it closer to your body. Hold for 15 seconds.",
         "tags": ["Shoulders", "Upper Body", "Full Body"],
-        "switch_sides": true
+        "switch_sides": true,
+        "imageName": "shoulder_across"
     },
     {
         "id": 4,
         "name": "Upper Back Stretch",
         "description": "Sit or stand tall. Clasp your hands together in front of you and round your upper back, pressing your hands away from you. Hold for 15 seconds.",
         "tags": ["Upper Back", "Upper Body", "Full Body"],
-        "switch_sides": false
+        "switch_sides": false,
+        "imageName": "upper_back_away"
     },
     {
         "id": 5,
         "name": "Chest Stretch",
         "description": "Extend your arms out to the sides, then bring them behind your back, interlocking your fingers and opening your chest. Hold for 15 seconds.",
         "tags": ["Chest", "Upper Body", "Full Body"],
-        "switch_sides": false
+        "switch_sides": false,
+        "imageName": "chest_behind"
     },
     {
         "id": 6,
         "name": "Quad Stretch",
         "description": "Stand tall, grab one foot with your hand, and pull it towards your glutes, feeling the stretch in the front of your thigh. Hold for 15 seconds.",
         "tags": ["Quadriceps", "Lower Body", "Full Body"],
-        "switch_sides": true
+        "switch_sides": true,
+        "imageName": "standing_quad"
     },
     {
         "id": 7,
         "name": "Calf Stretch",
         "description": "Stand facing a wall with one foot in front of the other. Lean forward, keeping your back heel on the ground, feeling the stretch in your calf. Hold for 15 seconds.",
         "tags": ["Calves", "Lower Body", "Full Body"],
-        "switch_sides": true
+        "switch_sides": true,
+        "imageName": "calves_wall"
     },
     {
         "id": 8,
         "name": "Hip Flexor Stretch",
         "description": "Kneel on one knee, with the other foot in front, and lean forward, feeling the stretch in the front of your hip. Hold for 15 seconds.",
         "tags": ["Hip Flexors", "Lower Body", "Full Body"],
-        "switch_sides": true
+        "switch_sides": true,
+        "imageName": "hip_flexor_kneeling"
     },
     {
         "id": 9,
         "name": "Triceps Stretch",
         "description": "Raise one arm overhead, bending at the elbow, and reach your hand down your back. Use your other hand to gently push on the bent elbow, feeling the stretch in your triceps. Hold for 15 seconds.",
         "tags": ["Triceps", "Upper Body", "Full Body"],
-        "switch_sides": false
+        "switch_sides": false,
+        "imageName": "triceps"
     }
 ]

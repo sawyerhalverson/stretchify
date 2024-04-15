@@ -50,7 +50,7 @@
     {
         "id": 7,
         "name": "Calf Stretch",
-        "description": "Stand facing a wall with one foot in front of the other. Lean forward, keeping your back heel on the ground, feeling the stretch in your calf. Hold for 15 seconds.",
+        "description": "Stand facing a wall with one foot in front of the other. Lean forward, keeping your back heel on the ground, feeling the stretch in your calf. Hold for 15 seconds on each side.",
         "tags": ["Calves", "Lower Body", "Full Body"],
         "switch_sides": true,
         "imageName": "calves_wall"

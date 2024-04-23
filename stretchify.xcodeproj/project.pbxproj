@@ -11,6 +11,8 @@
 		AA8326062BC62AA1005CC381 /* Stretch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8326052BC62AA1005CC381 /* Stretch.swift */; };
 		AA8326092BC62B50005CC381 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8326082BC62B50005CC381 /* Bundle+Extensions.swift */; };
 		AA83260A2BC62BB9005CC381 /* stretches.json in Resources */ = {isa = PBXBuildFile; fileRef = AA8326072BC62B05005CC381 /* stretches.json */; };
+		AA9C09F72BD8725A002BD280 /* DailyStretchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C09F62BD8725A002BD280 /* DailyStretchView.swift */; };
+		AA9C09FB2BD8780F002BD280 /* PreStretchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9C09FA2BD8780F002BD280 /* PreStretchView.swift */; };
 		AAFC6BFB2BC4912900993951 /* stretchifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC6BFA2BC4912900993951 /* stretchifyApp.swift */; };
 		AAFC6BFD2BC4912900993951 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC6BFC2BC4912900993951 /* ContentView.swift */; };
 		AAFC6BFF2BC4912A00993951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFC6BFE2BC4912A00993951 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		AA8326052BC62AA1005CC381 /* Stretch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stretch.swift; sourceTree = "<group>"; };
 		AA8326072BC62B05005CC381 /* stretches.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stretches.json; sourceTree = "<group>"; };
 		AA8326082BC62B50005CC381 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		AA9C09F62BD8725A002BD280 /* DailyStretchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyStretchView.swift; sourceTree = "<group>"; };
+		AA9C09FA2BD8780F002BD280 /* PreStretchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreStretchView.swift; sourceTree = "<group>"; };
 		AAFC6BF72BC4912900993951 /* stretchify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stretchify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFC6BFA2BC4912900993951 /* stretchifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stretchifyApp.swift; sourceTree = "<group>"; };
 		AAFC6BFC2BC4912900993951 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				AA8326072BC62B05005CC381 /* stretches.json */,
 				AA8326052BC62AA1005CC381 /* Stretch.swift */,
 				AAFC6BFC2BC4912900993951 /* ContentView.swift */,
+				AA9C09F62BD8725A002BD280 /* DailyStretchView.swift */,
+				AA9C09FA2BD8780F002BD280 /* PreStretchView.swift */,
 				AAFC6BFE2BC4912A00993951 /* Assets.xcassets */,
 				AAFC6C002BC4912A00993951 /* Preview Content */,
 			);
@@ -272,6 +278,8 @@
 			files = (
 				AAFC6BFD2BC4912900993951 /* ContentView.swift in Sources */,
 				AA8326092BC62B50005CC381 /* Bundle+Extensions.swift in Sources */,
+				AA9C09FB2BD8780F002BD280 /* PreStretchView.swift in Sources */,
+				AA9C09F72BD8725A002BD280 /* DailyStretchView.swift in Sources */,
 				AA8326062BC62AA1005CC381 /* Stretch.swift in Sources */,
 				AAFC6BFB2BC4912900993951 /* stretchifyApp.swift in Sources */,
 				AA8326042BC629CA005CC381 /* StretchesView.swift in Sources */,
